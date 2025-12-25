@@ -22,6 +22,7 @@ public class DemoString {
         DateTimeFormatter instantFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault());
 
         DateTimeFormatter formatter = DateTimeFormatter.ISO_DATE_TIME;
+        DateTimeFormatter formatterInstant = DateTimeFormatter.ISO_INSTANT;
 
         //3 different ways to use the DateTimeFormatter
         System.out.println("localDate = " + localDate.format(localDateFormatter));
@@ -32,7 +33,7 @@ public class DemoString {
 
         System.out.println("instant = " + instantFormatter.format(instant));
 
-        System.out.println("localDateTime = " + localDateTime.format(formatter));
+        System.out.println("instant = " + formatterInstant.format(instant));
 
     }
 }
