@@ -1,4 +1,4 @@
-package Section16_Interfaces.entities;
+package Section16_Interfaces.resolved_exercise.entities;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

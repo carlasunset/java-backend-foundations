@@ -1,4 +1,4 @@
-package Section16_Interfaces.services;
+package Section16_Interfaces.resolved_exercise.services;
 
 public class PaypalService implements OnlinePaymentService{
 

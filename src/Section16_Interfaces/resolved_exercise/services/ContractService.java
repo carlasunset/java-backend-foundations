@@ -1,7 +1,7 @@
-package Section16_Interfaces.services;
+package Section16_Interfaces.resolved_exercise.services;
 
-import Section16_Interfaces.entities.Contract;
-import Section16_Interfaces.entities.Installment;
+import Section16_Interfaces.resolved_exercise.entities.Contract;
+import Section16_Interfaces.resolved_exercise.entities.Installment;
 
 import java.time.LocalDate;
 

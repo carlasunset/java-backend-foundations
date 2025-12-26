@@ -1,9 +1,9 @@
-package Section16_Interfaces.application;
+package Section16_Interfaces.resolved_exercise.application;
 
-import Section16_Interfaces.entities.Contract;
-import Section16_Interfaces.entities.Installment;
-import Section16_Interfaces.services.ContractService;
-import Section16_Interfaces.services.PaypalService;
+import Section16_Interfaces.resolved_exercise.entities.Contract;
+import Section16_Interfaces.resolved_exercise.entities.Installment;
+import Section16_Interfaces.resolved_exercise.services.ContractService;
+import Section16_Interfaces.resolved_exercise.services.PaypalService;
 
 import java.text.ParseException;
 import java.time.LocalDate;
