@@ -3,21 +3,16 @@ package Section17_Generics_Set_Map.resolved_exercise.services;
 import java.util.ArrayList;
 import java.util.List;
 
-// This version uses Object to allow multiple types,
-// but lacks type safety and requires casting.
-// This limitation motivates the use of Generics.
-public class PrintService {
+// T is a conventional name for generic types in Java
+public class PrintService<T> {
 
-    // Using Object allows storing any type, but removes compile-time type safety
-    private List<Object> list = new ArrayList<>();
+    private List<T> list = new ArrayList<>();
 
-    // Accepts any type, which can lead to heterogeneous lists and potential runtime errors
-    public void addValue(Object value){
+    public void addValue(T value){
         list.add(value);
     }
 
-    // Returns Object, requiring explicit casting by the caller. This may cause ClassCastException at runtime
-    public Object first(){
+    public T first(){
         if (list.isEmpty()){
             throw new IllegalStateException("List is empty!");
         }
