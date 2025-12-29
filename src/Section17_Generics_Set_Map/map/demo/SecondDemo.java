@@ -1,4 +1,4 @@
-package Section17_Generics_Set_Map.map;
+package Section17_Generics_Set_Map.map.demo;
 
 import java.util.HashMap;
 import java.util.Map;
