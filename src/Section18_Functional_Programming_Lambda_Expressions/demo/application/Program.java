@@ -15,7 +15,14 @@ public class Program {
         productList.add(new Product("Laptop", 1200.00));
         productList.add(new Product("Tablet", 450.00));
 
-        productList.sort(new MyComparator());
+        Comparator<Product> comparator = new Comparator<Product>() {
+            @Override
+            public int compare(Product p1, Product p2) {
+                return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
+            }
+        };
+
+        productList.sort(comparator);
 
         for(Product p : productList){
             System.out.println(p);
