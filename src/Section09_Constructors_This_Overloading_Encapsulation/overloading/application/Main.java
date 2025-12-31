@@ -1,6 +1,6 @@
-package Section09_Constructors_This_Overloading_Encapsulation.sobrecarga.application;
+package Section09_Constructors_This_Overloading_Encapsulation.overloading.application;
 
-import Section09_Constructors_This_Overloading_Encapsulation.sobrecarga.entities.Product;
+import Section09_Constructors_This_Overloading_Encapsulation.overloading.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;

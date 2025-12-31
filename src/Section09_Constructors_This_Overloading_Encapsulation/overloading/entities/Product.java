@@ -1,4 +1,4 @@
-package Section09_Constructors_This_Overloading_Encapsulation.sobrecarga.entities;
+package Section09_Constructors_This_Overloading_Encapsulation.overloading.entities;
 
 public class Product {
 
@@ -16,7 +16,7 @@ public class Product {
         this.quantity = quantity;
     }
 
-    // sobrecarga
+    // overloading
     public Product(String name, double price){
         this.name = name;
         this.price = price;
