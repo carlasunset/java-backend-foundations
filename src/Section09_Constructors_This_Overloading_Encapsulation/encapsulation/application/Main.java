@@ -1,6 +1,6 @@
-package Section09_Constructors_This_Overloading_Encapsulation.encapsulamento.application;
+package Section09_Constructors_This_Overloading_Encapsulation.encapsulation.application;
 
-import Section09_Constructors_This_Overloading_Encapsulation.encapsulamento.entities.Product;
+import Section09_Constructors_This_Overloading_Encapsulation.encapsulation.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;
