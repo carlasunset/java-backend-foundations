@@ -3,23 +3,23 @@ package Section05_Conditional_Statements;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class OperadoresCumulativos {
+public class CompoundOperators {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int minutos = sc.nextInt();
-        double conta = 50.0;
+        int minutes = sc.nextInt();
+        double sum = 50.0;
 
-        if (minutos > 100){
-            conta += (minutos - 100) * 2; // conta = conta + (minutos - 100) * 2;
+        if (minutes > 100){
+            sum += (minutes - 100) * 2; // sum = sum + (minutes - 100) * 2;
         }
-        System.out.printf("Valor da conta = R$ %.2f%n", conta);
+        System.out.printf("Valor da conta = R$ %.2f%n", sum);
 
         sc.close();
 
         /*
-          Operadores cumulativos
+          Compound Operators
           a += b -> a = a + b
           a -+ b -> a = a - b
           a *= b -> a = a * b
