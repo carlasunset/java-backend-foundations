@@ -18,11 +18,7 @@ public class Program {
 
         double factor = 1.1;
 
-        Consumer<Product> consumer = product -> {
-            product.setPrice(product.getPrice() * factor);
-        };
-
-        list.forEach(Product::nonStaticPriceUpdate);
+        list.forEach(product -> product.setPrice(product.getPrice() * factor));
 
         list.forEach(System.out::println);
 
